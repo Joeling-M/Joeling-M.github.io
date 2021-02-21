@@ -1,2 +1,2 @@
 # Joeling-M.github.io
-Website
+A resume website to showcase HTML/CSS/JavaScript skills, while giving an outline of my other technical abilities.
