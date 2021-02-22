@@ -1,5 +1,5 @@
  /* The side navigation menu */
- .navBar {
+ #navBar {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -13,9 +13,9 @@
   }
 
   /* Position and style the close button (top right corner) */
-  .navButton {
+  #navButton {
     position: fixed;
-    top: 25;
+    top: 25px;
     left: 25px;
     height:50px;
     width:50px;
