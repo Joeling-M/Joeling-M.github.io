@@ -30,7 +30,7 @@
   #main {
     transition: margin-left .5s;
     padding-left: 1px;
-    float:inline-end
+    float:right;
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
