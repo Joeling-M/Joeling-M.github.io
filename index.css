@@ -13,10 +13,12 @@
   }
 
   /* Position and style the close button (top right corner) */
-  .navBar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
+  .navButton {
+    position: fixed;
+    top: 25;
+    left: 25px;
+    height:50px;
+    width:50px;
     font-size: 36px;
     margin-left: 50px;
   }
