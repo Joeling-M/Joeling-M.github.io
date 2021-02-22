@@ -1,5 +1,5 @@
  /* The side navigation menu */
- .sideNav {
+ .navBar {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -13,7 +13,7 @@
   }
 
   /* Position and style the close button (top right corner) */
-  .sideNav .closebtn {
+  .navBar .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -29,6 +29,6 @@
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .navBar {padding-top: 15px;}
+    .navBar a {font-size: 18px;}
   } 
