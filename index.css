@@ -20,7 +20,8 @@
     height:50px;
     width:50px;
     font-size: 36px;
-    margin-left:0;
+    margin-left:1px;
+    margin-top:1px;
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
