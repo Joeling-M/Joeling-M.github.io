@@ -19,8 +19,6 @@
     left: 10px;
     height:50px;
     width:50px;
-    font-size: 36px;
-    margin-left: 50px;
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -34,8 +32,3 @@
     .navBar {padding-top: 15px;}
     .navBar a {font-size: 18px;}
   } 
-
-  #profile .fa-circle{
-    height:10px;
-    width:10px;
-  }
