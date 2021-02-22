@@ -39,6 +39,6 @@
     .navBar a {font-size: 18px;}
   } 
 
-  #profile ul{
+  #profile ul p{
     list-style-type: circle;
   }
