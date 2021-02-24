@@ -1,6 +1,6 @@
  body {
     background-image: url('images/Background.jpg');
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
  }
  
  /* The side navigation menu */
@@ -45,7 +45,7 @@ ul {
 
 .fireText {
   background-color: lightgrey;
-	background: linear-gradient(to top right, #a80303 0%, #cabe10 75%);
+	background: linear-gradient(to top right, #690a0a 0%, #fffb00 100%);
 	-webkit-background-clip: text;
   background-clip: text;
 	-webkit-text-fill-color: transparent;
