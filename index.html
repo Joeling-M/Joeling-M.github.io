@@ -9,20 +9,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
   </head>
-  <body>
+  <body id="home">
     
-    <iframe id=navBar src="navBar.html" style="border:none;"></iframe>
+    <div id=navBar style="border:none;">
+      <ul id="items">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Personal Projects</a></li>
+        <li><a href="#jobs">Work History</a></li>
+        <li><a href="#interests">Technolgy Interests</a></li>
+        <li><a href="index.html#hobbies">Hobbies</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
 
-    <span onclick="openNav()" id="navButton" class="fa fa-bars fireText"></span>
+    <span onclick="openNav()" id="navButton" class="fa fa-bars"></span>
 
     <div id="main" onclick="closeNav()">
       
       <div id="name">
-        <h1 class=fireText>Joseph Michael Myc</h1>
+        <h1>Joseph Michael Myc</h1>
       </div>
       
-      <div id="profile" class=fireText>
-        <h4>Profile</h4>
+      <div id="profile">
+        <h3>Profile</h3>
         <p>I am a computer science graduate of Wilfrid Laurier University, 
           looking for work in my field, to further learn, and improve my skills.</p>
         <ul> 
@@ -33,44 +44,229 @@
         </ul>
       </div>
       
-      <div id="educationSkills" class=fireText>
-        <h4>Education & Skills</h4>
+      <div id="education">
+        <h3>Education</h3>
         <p>Honors Bachelor of Computer Science, from Wilfrid Laurier University, with a minor in physics.</p>
+      </div>
 
-        <h5>Java</h5>
+      <div id="skills">
+        <h3>Skills</h3>
+
+        <div class=skill>
+          <h4>Java</h4>
+          <p>9/10</p>
+          <p>Java is my best known language.  It is the language I started programming in back in high school.  
+            Since then I have regularly used it in university courses and personal projects.</p>
+        </div>
         
-        <h5>Python</h5>
+        <div class=skill>
+          <h4>Python</h4>
+          <p>8/10</p>
+          <p>I first started using this language in university.  It is one of my favorite languages to work in for its easy setup and usage, 
+            and I have used it regularly throughout my projects.</p>
+        </div>
 
-        <h5>SQL</h5>
+        <div class=skill>
+          <h4>MySQL</h4>
+          <p>8/10</p>
+          <p>Any time I have needed to query a database in my projects, I have used MySQL.  
+            My skills are more in querying databases than creating and editing them, 
+            but I always enjoy figuring out how to build better queries and commands in MySQL.</p>
+        </div>
 
-        <h5>C</h5>
+        <div class=skill>
+          <h4>C</h4>
+          <p>8/10</p>
+          <p>Used for multiple projects and courses in university.  Working in lower level languages is always 
+            interesting to better understand how things work under the surface.</p>
+        </div>
 
-        <h5>C++</h5>
+        <div class=skill>
+          <h4>C++</h4>
+          <p>6/10</p>
+          <p>Learned for a personal project where I made a small puzzle game.  
+            This language made me learn a lot more about external libraries and the compiler in order to use the wxWidgets UI library.</p>
+        </div>
 
-        <h5>C#</h5>
+        <div class=skill>
+          <h4>C#</h4>
+          <p>4/10</p>
+          <p>Used while playing with the unity game engine.</p>
+        </div>
 
-        <h5>HTML 5</h5>
+        <div class=skill>
+          <h4>HTML 5 & CSS</h4>
+          <p>9/10</p>
+          <p>Used for project documentation and website building</p>
+        </div>
 
-        <h5>CSS</h5>
+        <div class=skill>
+          <h4>JavaScript</h4>
+          <p>7/10</p>
+          <p>Used for any web development</p>
+        </div>
 
-        <h5>JavaScript</h5>
+        <div class=skill>
+          <h4>PHP</h4>
+          <p>4/10</p>
+          <p>Used for basic backend functionality during some web development.</p>
+        </div>
 
-        <h5>PHP</h5>
-
-        <h5>VBA</h5>
+        <div class=skill>
+          <h4>VBA</h4>
+          <p>8/10</p>
+          <p>Learned through university courses, and used when working at St Mary's CBM Aggregates to create some reporting tools.</p>
+        </div>
 
       </div>
-      <h4>Personal Projects</h4>
+ 
+      <div id="projects">
+        <h3>Personal Projects</h3>
+        <p>All projects can be found at My <a href="https://github.com/Joeling-M">GitHub</a></p>
+        
+        <div class=project>
+          <h4>Java Platformer Game</h4>
+          <p>A basic platforming game made using JavaFX.  
+            Made to learn more about common game issues, such as controlling frame rate and unit collision.</p>
+          <img src="images/Platformer.PNG" alt="Platforming Game Image">
+        </div>
 
-      <h4>School Projects</h4>
+        <div class=project>
+          <h4>C++ wxWidgets Tile Flip Game</h4>
+          <p>A small puzzle game I made to learn C++ using the wxWidgets UI library</p>
+          <img src="images/flipitgame.PNG" alt="Tile Flip Game Image">
+        </div>
+      </div>
 
-      <h4>Work History</h4>
+        <div id="jobs">
+        <h3>Work History</h3>
+        
+        <div class="job">
 
-      <h4>Technolgy Interests</h4>
+          <div class="job-head">
+            <h4>Security Staff, CNE Casino, Toronto Ontario</h4>
+            <h4 class="date-r">August of 2019</h4>
+          </div>
+          
+          <p>One of my favorite jobs, not because of the work but because of the people.  
+            The job was straightforward and repetitive, but everyone did their best to 
+            keep things fun and interesting.  This made the job very enjoyable when it could 
+            have easily been tedious and boring</p>
+          
+          <ul>
+            <li>Ensured the transportation and security of company assets.</li>
+            <li>Enacted policies and procedures to ensure proper behavior of customers and employees</li> 
+          </ul>
 
-      <h4>Hobbies</h4>
+        </div>
 
-      <h4>Contact</h4>
+        <div class="job">
+
+          <div class="job-head">
+            <h4>Summer Student, St. Mary's CBM Aggregates, Toronto, ON</h4>
+            <h4 class="date-r">Summer of 2018</h4>
+          </div>
+          
+          <p>Hired as a summer student to build some custom reporting tools for the aggregates division of 
+            St Mary's using VBA and Excel.</p>
+          
+          <ul>
+            <li>Worked to upkeep and modify data processing code.</li>
+            <li>Managed plant data to help managers and workers identify production issues.</li>
+            <li>Ensured that aggregate plant data was current and properly reported</li> 
+          </ul>
+          
+        </div>
+
+        <div class="job">
+
+          <div class="job-head">
+            <h4>Plant Manager, St. Mary's Cement, Toronto, ON</h4>
+            <h4 class="date-r">Summer of 2017</h4>
+          </div>
+          
+          <p>Brought on as summer help running ready mix plants.</p>
+          
+          <ul>
+            <li>Coordinated logistics for delivery including loading of materials.</li>
+            <li>Responsible for monitoring material supply and receiving material deliveries to the plant.</li>
+          </ul>
+          
+        </div>
+      </div>
+
+      <div id="interests">
+        <h3>Technolgy Interests</h3>
+
+        <div class="interest">
+          <h4>Networking</h4>
+          <p>Learning about the many layers of security and error correction that go into the way devices communicate 
+            is always interesting.  Thinking about the insane amount of communication, and verification our devices do without us 
+            thinking about it is amazing to me.</p>
+        </div>
+
+        <div class="interest">
+          <h4>Web Development</h4>
+          <p>Creating software for use from anywhere around the world is incredibly interesing to me.</p>
+        </div>
+
+        <div class="interest">
+          <h4>Security</h4>
+          <p>Users of computers don't usually understand computer security, and because of this, I think its importance is often overlooked as a subject.
+            (Hacking scenes in movies is proof of this)  Understanding security and the ways we are vulnerable to information gathering/altering is something 
+            I'm always interested in learning more about.
+          </p>
+        </div>
+
+        <div class="interest">
+          <h4>Front End Development</h4>
+          <p>Using software with poorly designed front ends is a pet peeve of mine.  Getting the chance to make good ones is something I like to try and do, 
+            even if I'm not the best at it yet.</p>
+        </div>
+
+        <div class="interest">
+          <h4>AI & Machine Learning</h4>
+          <p>As AI and machine learning have gotten better over the years, I have continualy been impressed as they get more accurate and powerful than I expect.
+            Learning about the basics in university peaked my interest into what is possible with AI automation.
+          </p>
+        </div>
+
+        <div class="interest">
+          <h4>Low Level Computing</h4>
+          <p>Seeing how computers work at lower levels is what got me into computer science to begin with.  Seeing how things work behind the scenes has always been
+            something I love to understand.
+          </p>
+        </div>
+      </div>
+      
+      
+      <div id="hobbies">
+        <h3>Hobbies</h3>
+
+        <div class="hobby">
+          <h4>Bouldering</h4>  
+          <p>A fun physical activity that tests my ability to figure out the path to climb, as well as my climbing ability.</p>
+        </div>
+
+        <div class="hobby">
+          <h4>Soccer</h4>
+          <p>Trying to utilize teamwork, strategy, and skill with parts of you body you don't normally use is very fun for me.</p>
+        </div>
+        
+        <div class="hobby">
+          <h4>Music</h4>
+          <p>While I have not continued to play trumpet after highschool, I have continued to enjoy teaching myself new songs on piano.</p>
+        </div>
+        
+      </div>
+
+      <div id="contact">
+        <h3>Contact</h3>
+        <p>Email: Joseph.Myc@gmail.com</p>
+        <p>Cell Phone: 647-677-6792</p>
+        
+      </div>
+
     </div>
   </body>
 </html>

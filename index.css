@@ -1,10 +1,36 @@
- body {
-    background-image: url('images/Background.jpg');
-    font-family: Arial, Helvetica, sans-serif;
- }
+body {
+  background-color: black;
+  background-image: url('images/Background.jpg');
+
+}
+ul {
+  list-style-type: circle;
+  font-size: 1vw;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 4vw;
+}
+h3 {
+  font-size: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+}
+
+h4 {
+  font-size: 1.5vw;
+  margin: 1vw 0 0vw 0;
+}
+
+p {
+  font-size: 1vw;
+  margin: 0.25vw 0 0.25vw 0;
+  max-width: 75vw;
+}
  
- /* The side navigation menu */
- #navBar {
+/* The side navigation menu */
+#navBar {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
@@ -15,6 +41,26 @@
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .navBar {padding-top: 15px;}
+  .navBar a {font-size: 18px;}
+} 
+
+/* The navigation menu links */
+#items a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+#items a:hover {
+  color: #f1f1f1;
+}
 
 /* Position and style the close button (top right corner) */
 #navButton {
@@ -23,7 +69,11 @@
   left: 1vw;
   font-size: 3vw;  
   margin: 0 0 0 0;
-  color: lightgrey;
+  background-color: lightgrey;
+	background: linear-gradient(to top right, #fff455 0%, #ff0000 100%);
+	-webkit-background-clip: text;
+  background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -33,20 +83,38 @@
   color: lightgrey;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .navBar {padding-top: 15px;}
-  .navBar a {font-size: 18px;}
-} 
-
-ul {
-  list-style-type: circle;
-}
-
-.fireText {
+#main div {
   background-color: lightgrey;
-	background: linear-gradient(to top right, #690a0a 0%, #fffb00 100%);
+	background: linear-gradient(to top right, #fff455 0%, #ff0000 100%);
 	-webkit-background-clip: text;
   background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.skill {
+  margin: .5vw .5vw .5vw .5vw;
+  padding: 0vw .5vw 0vw .5vw;
+}
+
+#name {
+  color: white;
+  text-align: center;  
+}
+
+.project img {
+  width: 50vw;
+}
+
+.job {
+  padding-right: 5vw;
+}
+
+.job-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-head h4{
+  margin-top: 0;
+  margin-bottom: 0;
 }
