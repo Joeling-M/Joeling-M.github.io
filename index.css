@@ -47,6 +47,7 @@ p {
 @media screen and (max-height: 450px) {
   .navBar {padding-top: 15px;}
   .navBar a {font-size: 18px;}
+  p {max-width: 100%;}
 } 
 
 #items {
