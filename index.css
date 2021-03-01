@@ -95,7 +95,7 @@ p {
 }
 
 /* Position and style the close button (top right corner) */
-#items #closeNavButton {
+#closeNavDiv{
   margin: 0 1vw 0 0;
   font-size: 75px;  
   display:flex;
@@ -107,7 +107,7 @@ p {
 	-webkit-text-fill-color: transparent;
 }
 
-#items #closeNavButton:hover {
+#closeNavDiv #closeNavButton:hover {
   background-color: #f1f1f1;
   background: linear-gradient(to top right, #fff455 25%, #ff0000 75%);
 	-webkit-background-clip: text;
