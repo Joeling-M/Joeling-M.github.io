@@ -13,7 +13,7 @@
     
     <div id=navBar style="border:none;">
       <ul id="items">
-        <li><span onclick="closeNav()" id="closeNavButton" class="fa fa-close"></span></li>
+        <li id="closeNavButton"><span onclick="closeNav()" id="closeNavButton" class="fa fa-close"></span></li>
         <li><a href="#home">Home</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -123,8 +123,10 @@
  
       <div id="projects">
         <h3>Personal Projects</h3>
-        <p>All projects can be found at My <a href="https://github.com/Joeling-M" target="_blank">GitHub</a></p>
-        
+        <div>
+          <p>All projects can be found at My <a href="https://github.com/Joeling-M" target="_blank">GitHub</a></p>
+        </div>
+
         <div class="project">
           <h4>Java Platformer Game</h4>
           <p>A basic platforming game made using JavaFX.  

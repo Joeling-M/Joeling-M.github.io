@@ -47,6 +47,7 @@ p {
 
 #items {
   list-style-type: none;
+  padding-left: 1vw;
 }
 /* The navigation menu links */
 #items a {
@@ -94,11 +95,11 @@ p {
 }
 
 /* Position and style the close button (top right corner) */
-#closeNavButton {
-  display:flex;
-  justify-content: end;
+#items #closeNavButton {
+  margin: 0 1vw 0 0;
   font-size: 75px;  
-  margin: 0 1vw 0 50%;
+  display:flex;
+  justify-content: end;  
   background-color: lightgrey;
 	background: linear-gradient(to top right, #fff455 0%, #ff0000 100%);
 	-webkit-background-clip: text;
@@ -106,7 +107,7 @@ p {
 	-webkit-text-fill-color: transparent;
 }
 
-#closeNavButton:hover {
+#items #closeNavButton:hover {
   background-color: #f1f1f1;
   background: linear-gradient(to top right, #fff455 25%, #ff0000 75%);
 	-webkit-background-clip: text;
