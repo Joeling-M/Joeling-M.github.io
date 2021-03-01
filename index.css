@@ -161,3 +161,9 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+#projects a {
+
+  color: #fff455;
+  -webkit-text-fill-color: #fff455;
+}
