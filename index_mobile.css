@@ -1,4 +1,4 @@
-@media screen and (max-width: 400mm) {
+@media screen and (max-width: 200mm) {
     #navBar {
         width: 0vw; /* 0 width - change this with JavaScript */
     }
@@ -8,7 +8,7 @@
     #closeNavDiv {
         font-size: 40px;
     }
-    
+
     #main {
         margin-left: 0vw;
         padding-left: 50px;
