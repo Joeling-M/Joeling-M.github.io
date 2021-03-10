@@ -2,7 +2,6 @@
 function openNav() {
     if (mobileCheck()){
         document.getElementById("navBar").style.width = "100vw";
-        document.getElementById("main").style.marginLeft = "100vw";
     } else {
         document.getElementById("navBar").style.width = "20vw";
         document.getElementById("main").style.marginLeft = "20vw";
