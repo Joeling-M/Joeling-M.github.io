@@ -1,0 +1,28 @@
+@media screen and (max-width: 40mm) {
+    #navBar {
+        width: 0vw; /* 0 width - change this with JavaScript */
+    }
+    #main {
+        margin-left: 0vw;
+    }
+
+    ul {
+        list-style-type: circle;
+        font-size: 10px;
+    }
+    
+    h1 {
+    font-size: 40px;
+    }
+    h3 {
+    font-size: 20px;
+    }
+    
+    h4 {
+    font-size: 15px;
+    }
+    
+    p {
+    font-size: 10px;
+    }
+}
