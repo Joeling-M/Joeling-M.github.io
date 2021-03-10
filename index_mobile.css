@@ -2,11 +2,16 @@
     #navBar {
         width: 0vw; /* 0 width - change this with JavaScript */
     }
-    #items a {
-        font-size: 20px;
+    #navButton {
+        font-size: 40px; 
     }
+    #closeNavDiv {
+        font-size: 40px;
+    }
+    
     #main {
         margin-left: 0vw;
+        padding-left: 50px;
     }
 
     ul {
