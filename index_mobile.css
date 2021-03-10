@@ -1,6 +1,9 @@
-@media screen and (max-width: 200mm) {
+@media screen and (max-width: 400mm) {
     #navBar {
         width: 0vw; /* 0 width - change this with JavaScript */
+    }
+    #items a {
+        font-size: 20px;
     }
     #main {
         margin-left: 0vw;
