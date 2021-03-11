@@ -114,14 +114,18 @@ p {
   transition: margin-left .5s;
   padding-left: 85px;
   margin-left: 20vw;
-  color: white;
+  
 }
 
 #main div {
+  color: transparent;
+  background-color: white;
+  background-clip: text;
+  
 	background: linear-gradient(to top right, #fff455 0%, #ff0000 100%);
 	-webkit-background-clip: text;
-  background-clip: text;
 	-webkit-text-fill-color: transparent;
+  
 }
 
 .skill {
