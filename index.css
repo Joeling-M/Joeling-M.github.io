@@ -129,7 +129,8 @@ p {
 
 #main div {
   background-color: lightgrey;
-	background: linear-gradient(to top right, #fff455 0%, #ff0000 100%);
+	/* background: linear-gradient(to top right, #fff455 0%, #ff0000 100%); */
+  background: -webkit-linear-gradient(top right, #fff455 0%, #ff0000 100%);
 	-webkit-background-clip: text;
   background-clip: text;
 	-webkit-text-fill-color: transparent;
