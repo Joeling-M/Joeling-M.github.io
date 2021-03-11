@@ -56,7 +56,6 @@ p {
   font-size: 30px;
   display: block;
   transition: 0.3s;
-  background-color: #818181;
 	background: linear-gradient(to top right, #fff455 0%, #ff0000 100%);
 	-webkit-background-clip: text;
   background-clip: text;
@@ -65,7 +64,6 @@ p {
 
 /* When you mouse over the navigation links, change their color */
 #items a:hover {
-  background-color: #f1f1f1;
   background: linear-gradient(to top right, #fff455 25%, #ff0000 75%);
 	-webkit-background-clip: text;
   background-clip: text;
@@ -79,16 +77,13 @@ p {
   left: 1vw;
   font-size: 75px;  
   margin: 0 0 0 0;
-  background-color: lightgrey;
 	background: linear-gradient(to top right, #fff455 0%, #ff0000 100%);
 	-webkit-background-clip: text;
   background-clip: text;
 	-webkit-text-fill-color: transparent;
-  transition: 0.3s;
 }
 
 #navButton:hover {
-  background-color: #f1f1f1;
   background: linear-gradient(to top right, #fff455 25%, #ff0000 75%);
 	-webkit-background-clip: text;
   background-clip: text;
@@ -101,16 +96,13 @@ p {
   font-size: 75px;  
   display:flex;
   justify-content: space-between;  
-  background-color: lightgrey;
 	background: linear-gradient(to top right, #fff455 0%, #ff0000 100%);
 	-webkit-background-clip: text;
   background-clip: text;
 	-webkit-text-fill-color: transparent;
-  transition: 0.3s;
 }
 
 #closeNavDiv #closeNavButton:hover {
-  background-color: #f1f1f1;
   background: linear-gradient(to top right, #fff455 25%, #ff0000 75%);
 	-webkit-background-clip: text;
   background-clip: text;
@@ -123,12 +115,9 @@ p {
   padding-left: 85px;
   margin-left: 20vw;
   color: white;
-  transition: 0.3s;
 }
 
 #main div {
-  transition: 0.3s;
-  background-color: #f1f1f1;
 	background: linear-gradient(to top right, #fff455 0%, #ff0000 100%);
 	-webkit-background-clip: text;
   background-clip: text;
