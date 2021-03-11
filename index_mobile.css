@@ -1,28 +1,37 @@
-@media screen and (max-width: 40mm), (max-height: 40mm) {
+@media screen and (max-width: 230mm) {
     #navBar {
         width: 0vw; /* 0 width - change this with JavaScript */
     }
+    #navButton {
+        font-size: 40px; 
+    }
+    #closeNavDiv {
+        font-size: 40px;
+    }
+
     #main {
         margin-left: 0vw;
+        padding-left: 50px;
     }
 
     ul {
         list-style-type: circle;
-        font-size: 10px;
+        font-size: 15px;
+        padding-left: 15px;
     }
     
     h1 {
-    font-size: 40px;
+    font-size: 30px;
     }
     h3 {
-    font-size: 20px;
+    font-size: 25px;
     }
     
     h4 {
-    font-size: 15px;
+    font-size: 20px;
     }
     
     p {
-    font-size: 10px;
+    font-size: 15px;
     }
 }
