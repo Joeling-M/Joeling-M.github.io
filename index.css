@@ -130,6 +130,7 @@ p {
 	-webkit-background-clip: text;
   background-clip: text;
 	-webkit-text-fill-color: transparent;
+  width: 99.99%;
 }
 
 .skill {
