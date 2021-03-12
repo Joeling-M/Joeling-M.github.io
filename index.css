@@ -185,7 +185,13 @@ p {
 }
 
 .job-title {
+  display: inline;
   margin-right: 3vw;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
+}
+.date-r{
+  display: inline;
   -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
   background-clip: text;           /* Make linter error go away*/
 }
