@@ -166,6 +166,11 @@ p {
   background-clip: text;           /* Make linter error go away*/
 }
 
+#nameText{
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
+}
+
 #projects img {
   width: 50vw;
   -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
@@ -187,6 +192,10 @@ p {
 
 .job-title {
   margin-right: 3vw;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
+}
+.date-r {
   -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
   background-clip: text;           /* Make linter error go away*/
 }
