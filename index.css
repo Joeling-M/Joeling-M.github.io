@@ -1,11 +1,13 @@
 body {
   background-color: black;
   background-image: url('images/Background.jpg');
+  -webkit-background-clip: text;
 
 }
 ul {
   list-style-type: circle;
   font-size: 20px;
+  -webkit-background-clip: text;
 }
 
 h1 {
@@ -13,6 +15,7 @@ h1 {
   font-size: 75px;
   margin-top: 1vw;
   margin-bottom: 0;
+  -webkit-background-clip: text;
 }
 
 
@@ -21,11 +24,13 @@ h1 {
   font-size: 40px;
   margin-top: 2vw;
   margin-bottom: 1vw;
+  -webkit-background-clip: text;
 }
 
 h4 {
   font-size: 30px;
   margin: 1vw 0 0vw 0;
+  -webkit-background-clip: text;
 }
 
 p {
@@ -33,6 +38,7 @@ p {
   margin: 0.25vw 0 0.25vw 0;
   max-width: 80vw;
   list-style-type: circle;
+  -webkit-background-clip: text;
 }
 
 /* The side navigation menu */
@@ -46,12 +52,14 @@ p {
   background-color: #111; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  -webkit-background-clip: text;
 }
 
 
 #items {
   list-style-type: none;
   padding-left: 1vw;
+  -webkit-background-clip: text;
 }
 /* The navigation menu links */
 #items a {
@@ -125,27 +133,27 @@ p {
   padding-left: 85px;
   margin-left: 20vw;
   color: lightgrey;
+  -webkit-background-clip: text;
 }
 
 #main div {
   background-color: lightgrey;
 	background: linear-gradient(to top right, rgba(255, 255, 0, 1) 0%, rgba(255,0,0,1) 100%); /*must use rgba for mac/ios? */
 	-webkit-background-clip: text;
-   background-clip: text; /* useless thing to stop linter from yelling */
+  background-clip: text; /* useless thing to stop linter from yelling */
 	-webkit-text-fill-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 .skill {
   margin: .5vw .5vw .5vw .5vw;
   padding: 0vw .5vw 0vw .5vw;
+  -webkit-background-clip: text;
 }
 
 #name {
   color: white;
   text-align: center;  
+  -webkit-background-clip: text;
 }
 
 #projects img {
