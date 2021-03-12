@@ -177,7 +177,8 @@ p {
 }
 
 .job-head {
-  display: flex;
+  display:inline-flex;
+  width: 100%;
   justify-content: space-between;
   -webkit-text-fill-color: white;
   -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
@@ -185,13 +186,14 @@ p {
 }
 
 .job-title {
-  display: inline;
+  align-self: flex-start;
   margin-right: 3vw;
   -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
   background-clip: text;           /* Make linter error go away*/
 }
-.date-r{
-  display: inline;
+
+.date-r {
+  align-self: flex-end;
   -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
   background-clip: text;           /* Make linter error go away*/
 }
