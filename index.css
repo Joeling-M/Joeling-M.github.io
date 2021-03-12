@@ -18,6 +18,7 @@ h1 {
   margin-bottom: 0;
   -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
   background-clip: text;           /* Make linter error go away*/
+  -webkit-text-fill-color: white;
 }
 
 
@@ -180,6 +181,7 @@ p {
 .job-head {
   display: flex;
   justify-content: space-between;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
   background-clip: text;           /* Make linter error go away*/
 }
