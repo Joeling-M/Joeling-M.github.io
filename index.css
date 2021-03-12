@@ -1,11 +1,15 @@
 body {
   background-color: black;
   background-image: url('images/Background.jpg');
-
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
+
 ul {
   list-style-type: circle;
   font-size: 20px;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
 
 h1 {
@@ -13,22 +17,34 @@ h1 {
   font-size: 75px;
   margin-top: 1vw;
   margin-bottom: 0;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
-h3 {
+
+
+#main div h3 {
+  color: white;
   font-size: 40px;
   margin-top: 2vw;
   margin-bottom: 1vw;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
 
 h4 {
   font-size: 30px;
   margin: 1vw 0 0vw 0;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
 
 p {
   font-size: 20px;
   margin: 0.25vw 0 0.25vw 0;
   max-width: 80vw;
+  list-style-type: circle;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
 
 /* The side navigation menu */
@@ -48,7 +64,10 @@ p {
 #items {
   list-style-type: none;
   padding-left: 1vw;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
+
 /* The navigation menu links */
 #items a {
   padding: 8px 8px 8px 8px;
@@ -121,11 +140,13 @@ p {
   padding-left: 85px;
   margin-left: 20vw;
   color: lightgrey;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
 
 #main div {
   background-color: lightgrey;
-	background: linear-gradient(to top right, #fff455 0%, #ff0000 100%);
+	background: linear-gradient(to top right, #fff455 25%, #ff0000 75%);
 	-webkit-background-clip: text;
   background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -134,37 +155,53 @@ p {
 .skill {
   margin: .5vw .5vw .5vw .5vw;
   padding: 0vw .5vw 0vw .5vw;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
 
 #name {
   color: white;
   text-align: center;  
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
 
 #projects img {
   width: 50vw;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
 
 .job {
   padding-right: 1vw;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
 
 .job-head {
   display: flex;
   justify-content: space-between;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
 
 .job-title {
   margin-right: 3vw;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
 
 .job-head h4{
   margin-top: 0;
   margin-bottom: 0;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
 
 #projects a {
 
   color: #fff455;
   -webkit-text-fill-color: #fff455;
+  -webkit-background-clip: text;   /* Must be put everywhere for stupid safari/apple*/
+  background-clip: text;           /* Make linter error go away*/
 }
